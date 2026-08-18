@@ -11,12 +11,7 @@ homepage = "https://github.com/jedisct1/libsodium-rs"
 readme = "README.md"
 keywords = ["crypto", "sodium", "libsodium", "encryption", "cryptography"]
 categories = ["cryptography", "external-ffi-bindings", "api-bindings"]
-include = [
-    "src/**/*",
-    "Cargo.toml",
-    "README.md",
-    "LICENSE",
-]
+include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE"]
 rust-version = "1.88.0"
 
 [dependencies]
